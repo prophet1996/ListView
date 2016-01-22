@@ -30,7 +30,6 @@ public class MainActivity extends Activity {
                                             @Override
                                             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                                                 String food = String.valueOf(parent.getItemAtPosition(position));
-                                                Toast.makeText(MainActivity.this,food,Toast.LENGTH_LONG);
                                             }
                                         }
         );
